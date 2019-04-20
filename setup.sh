@@ -19,6 +19,9 @@ sudo dpkg -i $(basename $(curl -ILs -o /dev/null -w %{url_effective} "${DISCORD_
 sudo apt --fix-broken install
 # sudo snap install discord
 
+# vscode install
+sudo snap install code --classic
+
 # git install
 sudo apt install -y git
 
