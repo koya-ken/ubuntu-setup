@@ -10,6 +10,7 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 # discord
+# https://linuxconfig.org/how-to-install-discord-on-ubuntu-18-04-bionic-beaver-linux
 sudo apt install -y curl
 DISCORD_URL="https://discordapp.com/api/download?platform=linux&format=deb"
 wget -c --trust-server-names ${DISCORD_URL}
